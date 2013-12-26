@@ -7,7 +7,7 @@ categories: ruby
 
 ## Intro
 
-A week ago I watched the first part of the 2 day Owning Rails videos. I found that the material was a no-nonsense approach to teaching the core fundamentals of ruby and rails.
+A week ago I watched the first part of the 2 day Owning Rails videos. I found that the material was a no-nonsense approach to teaching the core fundamentals of ruby and rails and I highly recommend it.
 
 One of the things I found interesting, and I guess I didnt quite grasp until explained to me was the passing of blocks. This is my first 'official' blog post ever so bear with me.
 
