@@ -32,7 +32,7 @@ def do_something(&block)
   block.call if block
 end
 
-do_something({ puts 'hello!'})
+do_something { puts 'hello!'}
 #=> prints 'hello!' to STDOUT.
 ```
 
