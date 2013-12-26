@@ -11,7 +11,7 @@ A week ago I watched the first part of the 2 day Owning Rails videos. I found th
 
 One of the things I found interesting, and I guess I didnt quite grasp until explained to me was the passing of blocks. This is my first 'official' blog post ever so bear with me.
 
-See almost everything in ruby is an object.. except our friend Mr Block. Blocks in ruby are the little un-assignable bits of logic you add to your ruby files.
+See almost everything in ruby is an object.. Except our friend Mr Block. Blocks in ruby are the little un-assignable bits of logic you add to your ruby files.
 
 ## Lets get into it
 We can pass code to be executed within any method we define in ruby, take this simple example:
