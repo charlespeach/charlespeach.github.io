@@ -94,6 +94,6 @@ We have learnt that when you explicitly pass a block to a method that uses the `
 
 We have also learnt that we can execute code within the context of the methods class using `instance_eval` and passing a block to it using the `&` keyword, which converts the proc back into a block.
 
-Hopefully this gives you a good idea of how to use code blocks and some things that can do with them.
+Hopefully this gives you a good idea of how to use code blocks and some things that can do with them. If there is anything you would like me to blog about next, give me a tweet @nz_cub3y
 
 
