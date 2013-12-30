@@ -69,7 +69,7 @@ end
 So whats happening inside the `routes` method?
 
 1. `routes` takes in a block, which gets converted to a proc using the `&` keyword.
-2. It is then converted back into a block when being passed to instance_eval.
+2. It is then converted back into a block when being passed to `instance_eval`.
 3. The 'match' method gets called within this instance instead of the root context.
 
 Now lets try using it!
@@ -83,10 +83,17 @@ end
 
 And we get a nice hash back of routes.
 
-`{"/users"=>"users#index", "/login"=>"sessions#new"}`
+``` ruby
+{"/users"=>"users#index",
+ "/login"=>"sessions#new"}
+```
 
 ## Wrap up
 
 We have learnt that when you explicitly pass a block to a method that uses the `&` keyword, the ruby interpreter converts it into a block. Once turned into a proc we can pass it around as we please.
 
 We have also learnt that we can execute code within the context of the methods class using `instance_eval` and passing a block to it using the `&` keyword, which converts the proc back into a block.
+
+Hopefully this gives you a good idea of how to use code blocks and some things that can do with them.
+
+
