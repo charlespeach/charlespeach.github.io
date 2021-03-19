@@ -11,4 +11,4 @@ Not that we need an excuse to get together and eat some awesome food, but it's m
 
 ## When/Where
 
-Meet 7pm, 20th March 2021 at Golden Time Restaurant, Main Street, Palmerston North
+Meet 7pm, 20th March 2021 at Golden Time Restaurant, 649 Main Street, Palmerston North
