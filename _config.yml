@@ -1,3 +1,4 @@
-name: Blog of Charles Peach
-markdown: redcarpet
+name: Charles Peach
+# markdown: redcarpet
 pygments: true
+future: true
