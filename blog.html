@@ -1,0 +1,16 @@
+---
+layout: default
+title: blog for charlespeach
+---
+
+
+<h1>Posts</h1>
+<ul class="posts">
+  {% if site.posts == empty %}
+    <p>I have nothing to share at the moment</p>
+  {% else %}
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  {% endif %}
+</ul>
